@@ -387,3 +387,13 @@ function digitize(n) {
 function maps(x){
 return x.map(num=>num*2)
 }
+//31Bu kata berilgan sonni juft son bo'lsa, sakkizga, aks holda to'qqizga ko'paytirish haqida.
+
+//natija
+function simpleMultiplication(number){
+	if(number % 2 == 0){
+		return number * 8;
+	}
+	else{
+		return number * 9;
+	}}
