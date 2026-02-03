@@ -376,3 +376,14 @@ function check(a, x) {
 function digitize(n) {
   return n.toString().split("").reverse().map(Number);
 }
+
+//30 Butun sonlar massivi berilgan bo'lsa, har bir qiymat ikki baravar ko'paytirilgan yangi massiv qaytariladi.
+
+// Masalan:
+
+// [1, 2, 3] --> [2, 4, 6]
+
+//natija
+function maps(x){
+return x.map(num=>num*2)
+}
