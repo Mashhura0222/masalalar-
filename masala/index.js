@@ -397,3 +397,11 @@ function simpleMultiplication(number){
 	else{
 		return number * 9;
 	}}
+  //32 Bo'sh bo'lmagan butun sonlar massivi berilgan bo'lsa, qiymatlarni tartib bo'yicha bir-biriga ko'paytirish natijasini qaytaring. Misol:
+
+// [1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
+ 
+//natija 
+function grow(x) {
+  return x.reduce((a, d) => a * d);
+}
