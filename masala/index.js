@@ -405,3 +405,6 @@ function simpleMultiplication(number){
 function grow(x) {
   return x.reduce((a, d) => a * d);
 }
+const grow = (nums) => nums.reduce((product, num) => product * num, 1);
+const grow=x=>eval(x.join("*"))
+let grow = x => x.reduce( (sum,el) => sum * el )
